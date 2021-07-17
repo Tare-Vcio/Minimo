@@ -1,0 +1,155 @@
+/* Let's go */
+
+body {
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    background-color: #ffffff;
+}
+
+.cover{
+    max-width: 1200px;
+    margin: 70px auto;
+}
+
+.header {
+    margin-bottom: 135px;
+}
+.heading {
+    padding-bottom: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .menu {
+    display: flex;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 120px;
+}
+
+.menu-item a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #626262;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.introduce {
+    margin-bottom: 140px;
+}
+
+.about {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.title {
+    margin-bottom: 45px;
+    font-family: 'Myriad Pro';
+    font-size: 30px;
+    color: #626262;
+
+}
+
+.description {
+    padding-bottom: 80px;
+    font-family: 'Myriad Pro';
+    font-size: 14px;
+    color: #626262;
+}
+
+.caption {
+    font-family: 'Myriad Pro';
+    font-size: 14px;
+    color: #c8c3b9;
+    text-transform: uppercase;
+}
+
+.information {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: calc((100% - 60px) / 2);
+    padding-bottom: 140px;
+}
+
+.list-item .item img {
+    max-width: 420px;
+    padding-bottom: 30px;
+}
+
+.list-item .item .caption {
+    padding-bottom: 30px;
+}
+
+.sign-up {
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.sign-up .container {
+    padding: 0 400px 70px 400px;
+}
+.sign-up-letter {
+    margin: 0 auto;
+} 
+.sign-up-letter .title {
+    max-width: 350px;
+    margin: 0 auto 90px auto;
+    padding-top: 70px;
+    font-family: 'Myriad Pro';
+    font-size: 30px;
+    color: #333333;
+
+}
+
+.sign-up-letter .input-mail {
+    max-width: 405px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #333333;
+}
+
+.sign-up-letter .input-mail input {
+    border: none;
+    background-color: #f0f0f0;
+    padding-bottom: 10px;
+    width: 90%;
+}
+
+.next-life-style .container{
+    padding-top: 100px;
+}
+
+.button-load-more .container {
+    text-align: center;
+    padding: 170px 0;
+}
+
+.button-load-more .container a {
+    font-size: 20px;
+    font-family:  'Myriad Pro';
+    color: #626262;
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 3px solid #626262;
+}
+
+.button-load-more .container a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
