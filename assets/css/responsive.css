@@ -1,0 +1,199 @@
+@media (max-width: 1024px) {
+    .header {
+        display: block;
+        margin: 0 auto;
+        padding: 20px 0 0 0;
+    }
+    img {
+        object-fit: cover;
+    }
+
+    .logo-minimo {
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .menu-option {
+        justify-content: center;
+    }
+
+    .menu-option .option:not(:last-child) {
+        padding-right: 40px;
+    }
+
+    .banner {
+        padding-bottom: 20px;
+    }
+
+    .text-top {
+        padding-bottom: 0;
+    }
+
+    .introduction {
+        padding-bottom: 45px;
+    }
+
+    .introduction .containner {
+        padding: 0 45px;
+    }
+
+    .introduce-title {
+        padding: 0;
+    }
+
+    .description {
+        padding-bottom: 20px;
+    }
+    .text-bottom {
+        padding-bottom: 0;
+    }
+
+    .about {
+        padding: 0 50px 40px 50px;
+    }
+
+    .item {
+        width: 100%;
+        padding-bottom: 45px;
+    }
+
+    .text {
+        padding: 20px 0 0 0;
+    }
+
+    .about .item-title {
+        padding: 0;
+    }
+
+    .contact {
+        margin: 0 0 45px 0;
+    }
+
+    .about-next {
+        padding: 0 50px 40px 50px;
+    }
+
+    .about-next .item-title {
+        width: 100%;
+        padding: 0;
+    }
+
+    .button-load-more .container {
+        margin: 0 auto;
+        padding-bottom: 80px;
+    }
+
+    .footer .container {
+        padding: 30px 50px;
+    }
+}
+
+@media (max-width: 714px) {
+    .header {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 0 0 0;
+    }
+    img {
+        object-fit: cover;
+    }
+
+    .logo-minimo {
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .menu-option {
+        justify-content: center;
+    }
+
+    .menu-option .option:not(:last-child) {
+        padding-right: 20px;
+    }
+
+    .banner {
+        padding-bottom: 10px;
+    }
+
+    .text-top {
+        padding-bottom: 0;
+    }
+
+    .introduction {
+        padding-bottom: 30px;
+    }
+
+    .introduction .containner {
+        padding: 0 20px;
+    }
+
+    .introduce-title {
+        padding: 0;
+    }
+
+    .description {
+        padding-bottom: 10px;
+    }
+    .text-bottom {
+        padding-bottom: 0;
+    }
+
+    .about {
+        padding: 0 38px 30px 38px;
+    }
+
+    .item {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .text {
+        padding: 10px 0 0 0;
+    }
+
+    .about .item-title {
+        padding: 0;
+    }
+
+    .contact {
+        margin: 0 0 30px 0;
+    }
+    
+    .input-title {
+        padding: 25px 10px 30px 8px;
+        text-align: center;
+    }
+
+    .about-next {
+        padding: 0 38px 30px 38px;
+    }
+
+    .about-next .item-title {
+        width: 100%;
+        padding: 0;
+    }
+
+    .button-load-more .container {
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    .list {
+        display: block;
+    }
+
+
+    .text-description, .icon-footer {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer .container {
+        padding: 10px 20px;
+    }
+
+    .icon-social-media img {
+        padding: 0 6px 3px 6px;
+    }
+
+}

@@ -162,6 +162,7 @@
     width: 100%;
 }
 
+
 .contact .container {
     max-width: 435px;
     margin: 0 auto;
@@ -198,6 +199,10 @@
 
 .icon-send {
     padding-bottom: 5px;
+}
+
+.icon-send:hover {
+    background-color: #626262;
 }
 
 .about-next {
