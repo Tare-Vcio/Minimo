@@ -28,6 +28,7 @@
     text-transform: uppercase;
     color: #626262;
     font-family: 'Playfair Display', serif;
+    font-size: 14px;
 }
 
 .menu-option a::after{
