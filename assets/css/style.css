@@ -126,13 +126,6 @@
     padding-bottom: 140px;
 }
 
-.about-next .item-title{
-    padding: 5px 0 40px 0;
-    font-size: 30px;
-    font-family: 'Playfair Display', serif;
-    color: #626262;
-    font-weight: 500;
-}
 .about .item-title {
     padding: 5px 0 40px 0;
     font-size: 30px;
@@ -166,12 +159,12 @@
 
 .contact .container {
     max-width: 435px;
+    padding-bottom: 75px;
     margin: 0 auto;
 }
 
 .input-title {
     font-size: 30px;
-    font-weight: 500;
     font-family: 'Playfair Display', serif;
     color: #626262;
     padding: 75px 30px 85px 25px;
@@ -206,24 +199,7 @@
     background-color: #626262;
 }
 
-.about-next {
-    max-width: 1200px;
-    padding: 0 150px 125px 150px;
-    margin: 0 auto;
-}
-.about-next .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 .about P {
-    font-size: 14px;
-    font-weight: 300;
-    color: #c7c1b6;
-    font-family: 'Playfair Display', serif;
-}
-.about-next P {
     font-size: 14px;
     font-weight: 300;
     color: #c7c1b6;
